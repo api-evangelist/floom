@@ -1,7 +1,22 @@
 aid: floom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/floom.png
 name: Floom
-description: Floom is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Floom is a curated online marketplace for flowers and plants that connects customers with
+  a vetted network of independent local florists, enabling same-day and next-day delivery of designer
+  bouquets, arrangements, and gifts across the United Kingdom and United States. Rather than operating
+  central warehouses, Floom routes each order to a nearby artisan florist, and also provides those
+  florists with e-commerce, ordering, and fulfillment technology to run and grow their businesses online.
 url: https://raw.githubusercontent.com/api-evangelist/floom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Flowers
+- Floristry
+- Marketplace
+- E-Commerce
+- Same-Day Delivery
+- Gifting
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/floom-domain-security.yml
+- type: LLMsTxt
+  url: llms/floom-llms.txt
 - type: Website
   url: https://floom.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

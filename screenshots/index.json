@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "floom",
+    "captured_at": "2026-10-11T185022",
+    "source_url": "https://floom.com",
+    "source_type": "Website",
+    "file": "floom-2026-10-11T185022.png",
+    "bytes": 394210,
+    "capture": "playwright-local"
+  }
+]

@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/floom/integrations
+- https://n8n.io/integrations/floom/
+- https://composio.dev/toolkits/floom
+- https://monid.ai/tools/floom
+checked:
+- https://composio.dev/toolkits/floom
+- https://monid.ai/tools/floom
+- https://n8n.io/integrations/floom/
+- https://zapier.com/apps/floom/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
